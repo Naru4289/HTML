@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'ChineseRock';
+    src: url("Fonts/CHINESER.TTF");
+}
+body {
+    margin: 0;
+    font-family: 'MyFont' , sans-serif;
+    
+
+}
+a{
+    color: whitesmoke;
+}
+
+.video-background {
+    position: relative;
+    height: 0px;
+    width: 1550px;
+  }
+  
+.video-background video {
+    background-color: black;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -100;
+  
+    filter: blur(1px); /* apply a blur effect to the video */
+}
+   
+h1 {
+    position: relative;
+    
+    margin-right: 300px;
+    margin-top: 0px;
+    margin-left: 600px;
+    height: 36px;
+    width: 400px;
+    color: whitesmoke;
+    
+
+}
+.head {
+    
+    width: 1460px;
+    height: 500px;
+    margin: 0;
+    padding: 30px;
+    
+}
+iframe {
+   
+    margin-left: 380px;
+    margin-right: 350px;
+    margin-top: 0px;
+    padding: 20px;
+}
+.head1 {
+    width: 1450px;
+    height: 580px;
+    margin: 0;
+    padding: 30px;
+    
+}
+.in {
+    font-family: 'ChineseRock';
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 160px;
+    margin-right: 150px;
+    font-size: x-large;
+    color: whitesmoke;
+}
+.img {
+    margin-left: 540px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    border-bottom-width: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    margin-right: 500px;
+    height: 500px;
+    width: 410px;
+}
+.h2 {
+    color : whitesmoke;
+    margin-top: 5px;
+    height: 30px;
+    width: 290px;
+    margin-top: 0px;
+    margin-left: 655px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}   
+.char{
+    color: whitesmoke;
+    font-size: large;
+}
+.table{
+    color: whitesmoke;
+    margin-left: 500px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 200px;
+}
